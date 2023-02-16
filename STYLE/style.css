@@ -1,0 +1,116 @@
+/*En esta secciòn realizare el Header*/
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Sección de Nav */
+
+#DatosPrincipales {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ededed;
+}
+
+#ContenidoDeBusqueda {
+    display: flex;
+    align-items: center;
+    border-style: dashed;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+
+}
+
+#ContenidoDeBusqueda img{
+    height: 14rem;
+    display: flex;
+}
+
+#ContenidoDeBusqueda #ListaPaginas{
+    display: flex;
+    list-style: none;
+    border-style: dotted;
+    flex-grow: 0.8;
+    justify-content: space-around;
+}
+
+
+#ImagenCentral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    border-style: dashed;
+}
+
+#DescripcionCentral {
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------*/
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.acordion{
+    width: 85%;
+}
+
+.acordion .contentBx {
+    position: relative;
+    margin: 10px 20px;
+    border-style: dashed;
+    
+}
+
+.acordion .contentBx .label {
+position: relative;
+padding: 10px;
+background: red;
+cursor: pointer;
+}
+
+.acordion .contentBx .label::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 1.5%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.acordion .contentBx .content
+{
+    position: relative;
+    padding: 10;
+    background-color: white;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+    overflow-y: auto;
+}
+
+.acordion .contentBx.active .content {
+height: 30rem;
+padding: 2rem;
+}
+
+
+.acordion .contentBx.active .label::before {
+    content: '-';
+
+}
