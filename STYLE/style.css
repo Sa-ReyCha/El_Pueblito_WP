@@ -48,12 +48,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 3rem;
     border-style: dashed;
 }
 
 #DescripcionCentral {
     text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 /* -------------------------------------------------------------------*/
@@ -112,5 +114,35 @@ padding: 2rem;
 
 .acordion .contentBx.active .label::before {
     content: '-';
-
 }
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #ededed;
+    padding-top: 4rem;
+}
+
+#logos {
+    border-style: dashed;
+    display: flex;
+   justify-content: space-around;
+}
+
+.logo {
+    background-color: yellow;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center ;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
