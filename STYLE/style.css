@@ -130,6 +130,7 @@ footer {
 #logos {
     border-style: dashed;
     display: flex;
+    flex-direction: row;
    justify-content: space-around;
 }
 
