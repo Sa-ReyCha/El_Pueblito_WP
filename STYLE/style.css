@@ -6,7 +6,7 @@ html{
 
 body{
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -16,30 +16,60 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #ededed;
+    background-color: #f7c710;
+    border-radius:4px;
 }
 
 #ContenidoDeBusqueda {
     display: flex;
     align-items: center;
-    border-style: dashed;
     justify-content: space-around;
     font-size: 2.5rem;
     padding-top: 1rem;
-
+    padding-bottom: 1rem;
+    background-color: white;
+    color: black;
+    /*border-style:dashed;/**/
 }
 
 #ContenidoDeBusqueda img{
-    height: 14rem;
+    height: 15rem;
     display: flex;
+    /*border-style: dotted; /**/
+
 }
 
 #ContenidoDeBusqueda #ListaPaginas{
     display: flex;
     list-style: none;
-    border-style: dotted;
-    flex-grow: 0.8;
-    justify-content: space-around;
+    flex-grow: 0.4;
+    justify-content: right;
+    text-transform: uppercase;
+   /* border-style: dotted; /**/
+    padding-top: 8rem;
+}
+
+.separador {
+    background-color: black;
+    margin: 0px;
+}
+
+.ContenidoLista a{ /* ESTO ES LO QUE CONTIENE CONTENIDO LISTA, MENU Y ASI*/
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  /*  border-style: double; /**/
+    font-weight:lighter;
+    color: black;
+}
+
+#ContenidoListaUltimo a{
+    background-color: #e76430;
+    border-radius: 12px;
+    color: black;
 }
 
 
@@ -48,14 +78,30 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
-    border-style: dashed;
+    padding-top: -0.5rem;
+}
+
+#ImagenCentral img {
+width: 95.1%;
 }
 
 #DescripcionCentral {
-    text-align: center;
+   
+text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-left:  2.3%;
+    margin-right: 2.3%;
+   /* border-style: dashed; /**/
+}
+
+#DescripcionCentral p{
+    text-align:center;
+}
+
+#DescripcionCentral img{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 /* -------------------------------------------------------------------*/
@@ -64,34 +110,39 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+   /* border-style: dashed;/**/
 }
 
 .acordion{
-    width: 85%;
+    width: 100%;
+   /* border-style: dotted;/**/
 }
 
 .acordion .contentBx {
     position: relative;
-    margin: 10px 20px;
-    border-style: dashed;
-    
+    margin: 10px 10px;
+   /* border-style:double;/**/
 }
 
 .acordion .contentBx .label {
-position: relative;
-padding: 10px;
-background: red;
-cursor: pointer;
+    position: relative;
+    padding: 20px;
+    background-color: #ededed;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 200px;
+ /*   border-style: dashed;/***/
+
+
 }
 
 .acordion .contentBx .label::before {
     content: '+';
     position: absolute;
     top: 50%;
-    right: 1.5%;
+    right: 5%;
     transform: translateY(-50%);
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
@@ -114,6 +165,8 @@ padding: 2rem;
 
 .acordion .contentBx.active .label::before {
     content: '-';
+    top: 45%;
+    right: 5.5%;
 }
 
 
@@ -123,19 +176,19 @@ footer {
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    background-color: #ededed;
-    padding-top: 4rem;
+    background-color: #fada62;
+    padding-top: 1rem;
+    border-radius: 20px;
 }
 
 #logos {
-    border-style: dashed;
     display: flex;
     flex-direction: row;
    justify-content: space-around;
 }
 
 .logo {
-    background-color: yellow;
+   /* background-color: yellow;*/
     display: inline-flex;
     align-items: center;
     justify-content: center;

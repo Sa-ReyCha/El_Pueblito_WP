@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Pueblito</title>
+    <title>El Pueblito Santiago N.L.</title>
     <link rel="stylesheet" href="STYLE/style.css">
 
 </head>
@@ -47,16 +47,20 @@
         <span>Jue a Dom 8am - 11pm</span>
     </div>
 
+    <div class="separador">
+    </div>
+
     <div id="ContenidoDeBusqueda">
         <img src="IMAGE_TEST/LOGO_SF.png">
         <ul id="ListaPaginas">
-            <li id='ContenidoLista_1'><a href="#Lista_1">Menu</a></li>
+            <li class='ContenidoLista'><a href="#Lista_1">Menu</a></li>
             <li class='ContenidoLista'><a href="#Lista_2">Ubicación</a></li>
             <li class='ContenidoLista'><a href="#Lista_3">Eventos</a></li>
-            <li class='ContenidoLista'><a href="#">Contacto</a></li>
+            <li class='ContenidoLista' id="ContenidoListaUltimo"><a href="#Lista_4">Contacto</a></li>
         </ul>
     </div>
 </nav>
+
 
 <div id="ContenidoCentral">
     <div id="ImagenCentral">
@@ -69,22 +73,6 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, aut non facere, tenetur quam, reprehenderit rerum optio cupiditate vitae tempora ipsum exercitationem dolorum aliquam enim nostrum beatae nulla libero magni. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam dolore labore perferendis reiciendis sunt sint doloribus quam in laudantium deserunt? Doloribus amet earum ducimus, odit sequi porro ut consequatur quod.</p>
 
         <div class="LineaDots">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 12v.01" />
-                <path d="M8 12v.01" />
-                <path d="M12 12v.01" />
-                <path d="M16 12v.01" />
-                <path d="M20 12v.01" />
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M4 12v.01" />
-                <path d="M8 12v.01" />
-                <path d="M12 12v.01" />
-                <path d="M16 12v.01" />
-                <path d="M20 12v.01" />
-            </svg>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 12v.01" />
@@ -168,19 +156,23 @@
 
 
     <div class="acordion">
+        <div class="contentBx">
+            <div class="label"><span id="Lista_1">Menu</span></div>
+            <div class="content">Esto es contenido  <img src="/IMAGE_TEST/LOGO_SF.png" id="ImagenMenu"></div>
+        </div>
 
         <div class="contentBx">
-            <div class="label"><span id="Lista_1">Lista 1</span></div>
+            <div class="label"><span id="Lista_2">Ubicación</span></div>
             <div class="content">Esto es contenido</div>
         </div>
 
         <div class="contentBx">
-            <div class="label"><span id="Lista_2">Lista 2</span></div>
+            <div class="label"><span id="Lista_3">Eventos</span></div>
             <div class="content">Esto es contenido</div>
         </div>
 
         <div class="contentBx">
-            <div class="label"><span id="Lista_3">Lista 2</span></div>
+            <div class="label"><span id="Lista_4">Contacto</span></div>
             <div class="content">Esto es contenido</div>
         </div>
 
