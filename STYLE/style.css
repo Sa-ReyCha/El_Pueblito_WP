@@ -16,7 +16,7 @@ body{
 /*CELULAR*/
 
 /* Media Query for Mobile Devices */ 
-@media (min-width: 250px) { 
+@media  (max-width: 376px) { 
     /* Sección de Nav */ 
     
     #DatosPrincipales {
