@@ -348,7 +348,7 @@ body{
     width: 60%; /* checar */
     position: relative;
     top: 1.5rem; 
-    left: -0rem;
+    left: -1%;
    /* border-style:dotted;/**/
 }
 
@@ -381,7 +381,7 @@ body{
 
 .ContenidoLista a{ /* ESTO ES LO QUE CONTIENE CONTENIDO LISTA, MENU Y ASI*/
     text-decoration: none;
-    font-size: 75%rem;
+    font-size: 55%;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 2rem;
