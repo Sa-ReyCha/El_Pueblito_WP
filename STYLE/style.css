@@ -43,6 +43,8 @@ body{
     
     #mier{
         text-align: center;
+  
+
     }
     
     #ContenidoDeBusqueda {
@@ -62,7 +64,7 @@ body{
         height: 9.5rem;
         display: flex;
         /*border-style: dotted; /**/
-        background-color: greenyellow;
+        background-color: white;
         padding-bottom: 3rem;
         padding-top: 0.6rem;
         padding-left: 1rem;
@@ -83,8 +85,8 @@ body{
         width: 60%; /* checar */
         position: relative;
         top: 0.5rem; 
-        left: -2rem;
-        border-style: dashed;
+        left: -3rem;
+       /* border-style:dotted;/**/
     }
     
     #Puntitos_1 {
