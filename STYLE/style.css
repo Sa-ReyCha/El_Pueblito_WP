@@ -80,9 +80,11 @@ body{
         padding-right: 0%;
         margin-right: 2%;
         padding-left: 0%;
-        background-color: orange;
-        width: 100%; /* checar */
-
+        width: 60%; /* checar */
+        position: relative;
+        top: 0.5rem; 
+        left: -1rem;
+        border-style: dashed;
     }
     
     #Puntitos_1 {
