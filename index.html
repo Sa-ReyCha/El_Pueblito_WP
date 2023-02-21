@@ -31,7 +31,9 @@
                 <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
             </svg>
         </span>
-        <span>5512286569 - 5512286569</span>
+        <span id="numeros_con_guion">5512286569 - 5512286569</span>
+        <span id="numeros_sin_guion">5512286569 <br> 5512286569</span>
+
         <span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-event" width="25" height="25" viewBox="0 0 24 24" stroke-width="1" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -42,9 +44,12 @@
                 <rect x="8" y="15" width="2" height="2" />
             </svg>
         </span>
-        <span>Lun & Mar 8am - 2pm</span>
-        <span>Mie 8am - 4pm</span>
-        <span>Jue a Dom 8am - 11pm</span>
+        <span class="horario_largo">Lun & Mar 8am - 2pm</span>
+        <span class="horario_largo">Mie 8am - 4pm</span>
+        <span class="horario_largo">Jue a Dom 8am - 11pm</span>
+        <span class="horario_corto">Lun & Mar <br>8am-2pm</span>
+        <div id="mier"><span class="horario_corto">Mie <br>8am-4pm</span></div>
+        <span class="horario_corto">Jue a Dom <br>8am-11pm</span>
     </div>
 
     <div class="separador">
@@ -55,7 +60,6 @@
         <ul id="ListaPaginas">
             <li class='ContenidoLista'><a href="#Lista_1">Menu</a></li>
             <li class='ContenidoLista'><a href="#Lista_2">Ubicación</a></li>
-            <li class='ContenidoLista'><a href="#Lista_3">Eventos</a></li>
             <li class='ContenidoLista' id="ContenidoListaUltimo"><a href="#Lista_4">Contacto</a></li>
         </ul>
     </div>
@@ -73,7 +77,7 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, aut non facere, tenetur quam, reprehenderit rerum optio cupiditate vitae tempora ipsum exercitationem dolorum aliquam enim nostrum beatae nulla libero magni. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam dolore labore perferendis reiciendis sunt sint doloribus quam in laudantium deserunt? Doloribus amet earum ducimus, odit sequi porro ut consequatur quod.</p>
 
         <div class="LineaDots">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" id="Puntitos_1">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 12v.01" />
                 <path d="M8 12v.01" />
@@ -81,7 +85,7 @@
                 <path d="M16 12v.01" />
                 <path d="M20 12v.01" />
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" id="Puntitos_2">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 12v.01" />
                 <path d="M8 12v.01" />
@@ -89,7 +93,7 @@
                 <path d="M16 12v.01" />
                 <path d="M20 12v.01" />
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" id="Puntitos_3">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 12v.01" />
                 <path d="M8 12v.01" />
@@ -97,7 +101,7 @@
                 <path d="M16 12v.01" />
                 <path d="M20 12v.01" />
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" id="Puntitos_4">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 12v.01" />
                 <path d="M8 12v.01" />
@@ -105,7 +109,7 @@
                 <path d="M16 12v.01" />
                 <path d="M20 12v.01" />
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" id="Puntitos_5">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 12v.01" />
                 <path d="M8 12v.01" />
@@ -113,7 +117,7 @@
                 <path d="M16 12v.01" />
                 <path d="M20 12v.01" />
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" id="Puntitos_6">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 12v.01" />
                 <path d="M8 12v.01" />
@@ -121,7 +125,7 @@
                 <path d="M16 12v.01" />
                 <path d="M20 12v.01" />
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" id="Puntitos_7">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 12v.01" />
                 <path d="M8 12v.01" />
@@ -129,7 +133,7 @@
                 <path d="M16 12v.01" />
                 <path d="M20 12v.01" />
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-line-dotted" width="96" height="96" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round" id="Puntitos_8">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M4 12v.01" />
                 <path d="M8 12v.01" />
@@ -163,11 +167,6 @@
 
         <div class="contentBx">
             <div class="label"><span id="Lista_2">Ubicación</span></div>
-            <div class="content">Esto es contenido</div>
-        </div>
-
-        <div class="contentBx">
-            <div class="label"><span id="Lista_3">Eventos</span></div>
             <div class="content">Esto es contenido</div>
         </div>
 
