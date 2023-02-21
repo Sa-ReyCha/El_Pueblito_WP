@@ -80,6 +80,7 @@ body{
         padding-right: 1rem;
         background-color: red;
         width: 50%; /* checar */
+        position: relative;
     }
     
     #Puntitos_1 {
