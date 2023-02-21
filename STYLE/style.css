@@ -75,14 +75,14 @@ body{
         list-style: none;
         justify-content: right;
         text-transform: uppercase;
-       /*border-style: dotted; /**/
+        /*border-style: dotted; /**/
         padding-top: 25%;
         padding-right: 0%;
         margin-right: 2%;
         padding-left: 0%;
         background-color: red;
         width: 50%; /* checar */
-        position: relative;
+
     }
     
     #Puntitos_1 {
