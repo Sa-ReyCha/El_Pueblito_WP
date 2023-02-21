@@ -77,7 +77,8 @@ body{
         text-transform: uppercase;
        /*border-style: dotted; /**/
         padding-top: 7rem;
-        padding-right: 1rem;
+        padding-right: 0%;
+        margin-right: 2%;
         background-color: red;
         width: 50%; /* checar */
         position: relative;
