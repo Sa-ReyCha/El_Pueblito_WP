@@ -56,7 +56,7 @@ body{
         padding-bottom: 0rem;
         background-color: white; /* cambiar a blanco */
         color: black;
-        /*border-style:groove;/**/
+        border-style:groove;/**/
     
     }
     
@@ -75,9 +75,8 @@ body{
     #ContenidoDeBusqueda #ListaPaginas{
         display: flex;
         list-style: none;
-        justify-content: right;
+        justify-content: left;
         text-transform: uppercase;
-        /*border-style: dotted; /**/
         padding-top: 20%;
         padding-bottom: 2%;
         padding-right: 0%;
@@ -87,7 +86,7 @@ body{
         position: relative;
         top: 1rem; 
         left: -10%;
-       /* border-style:dotted;/**/
+        border-style:dotted;/**/
     }
     
     #Puntitos_1 {
@@ -615,6 +614,8 @@ footer h2{
         top: 1.5rem; 
         left: -0rem;
        /* border-style:dotted;/**/
+       background-color: yellow;
+       width: 100%;
     }
     
     #Puntitos_1 {
@@ -644,7 +645,7 @@ footer h2{
     
     .ContenidoLista a{ /* ESTO ES LO QUE CONTIENE CONTENIDO LISTA, MENU Y ASI*/
         text-decoration: none;
-        font-size: 75%;
+        font-size: 80%;
         padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 2rem;
