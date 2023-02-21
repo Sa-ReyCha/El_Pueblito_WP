@@ -71,13 +71,12 @@ body{
     #ContenidoDeBusqueda #ListaPaginas{
         display: flex;
         list-style: none;
-        flex-grow: 1; /*----- CHECAR */
         justify-content: right;
         text-transform: uppercase;
        /*border-style: dotted; /**/
         padding-top: 7rem;
         padding-right: 1rem;
-        background-color: white;
+        background-color: red;
         width: 50%; /* checar */
     }
     
