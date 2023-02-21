@@ -28,6 +28,8 @@ body{
         width: 100%;
         /*border-style: dashed;/**/
         font-size: 1rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
     }
     
     #numeros_con_guion{
