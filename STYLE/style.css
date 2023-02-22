@@ -239,6 +239,18 @@ body{
     #menuFoto img{
         height: 110%;
     }
+
+   #Contacto{
+    padding-top: 3rem;
+   }
+        
+    #LastImage img{
+        padding-top: 8rem;
+        width: 30rem;
+        text-align: center;
+        /*border-style: dashed;/**/
+    }
+
     
     footer {
         display: flex;
@@ -246,15 +258,16 @@ body{
         flex-direction: column;
         align-items: center;
         text-transform: uppercase;
-        background-color: #fada62;
+        background-color: #f7c710;
         padding-top: 0rem;
         border-radius: 20px;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
     
     footer h2{
         text-align: center;
         font-size: 1.9rem;
+        color: white;
     }
     
     #logos {
@@ -514,15 +527,16 @@ footer {
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
-    background-color: #fada62;
+    background-color: #f7c710;
     padding-top: 0rem;
-    border-radius: 20px;
+    border-radius: 20px;    
     margin-top: 5rem;
 }
 
 footer h2{
     text-align: center;
     font-size: 1.9rem;
+    color: white;
 }
 
 #logos {
@@ -788,7 +802,7 @@ footer h2{
         flex-direction: column;
         align-items: center;
         text-transform: uppercase;
-        background-color: #fada62;
+        background-color: #f7c710;
         padding-top: 0rem;
         border-radius: 20px;
         margin-top: 5rem;
@@ -797,6 +811,7 @@ footer h2{
     footer h2{
         text-align: center;
         font-size: 1.9rem;
+        color: white;
     }
     
     #logos {
