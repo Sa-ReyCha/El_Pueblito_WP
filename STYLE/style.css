@@ -13,10 +13,10 @@ body{
 
 /* ------------------------- MEDIA QUERY --------------------- */
 
-/*CELULAR*/
+/*CELULAR*/ 
 
 /* Media Query for Mobile Devices */ 
-@media  (max-width: 376px) { 
+@media  (max-width: 376px) {  /*IPHONE 6,7,8 */
     /* Sección de Nav */ 
     
     #DatosPrincipales {
@@ -43,8 +43,6 @@ body{
     
     #mier{
         text-align: center;
-  
-
     }
     
     #ContenidoDeBusqueda {
@@ -56,7 +54,8 @@ body{
         padding-bottom: 0rem;
         background-color: white; /* cambiar a blanco */
         color: black;
-        border-style:groove;/**/
+        /*border-style:groove;/**/
+        width: 100%;
     
     }
     
@@ -64,7 +63,7 @@ body{
         height: 9.5rem;
         display: flex;
         /*border-style: dotted; /**/
-        background-color: yellowgreen;
+        background-color: white;
         padding-bottom: 3rem;
         padding-top: 0rem;
         padding-left: 1rem;
@@ -86,7 +85,7 @@ body{
         position: relative;
         top: 1rem; 
         left: -10%;
-        border-style:dotted;/**/
+        /*border-style:dotted;/**/
     }
     
     #Puntitos_1 {
@@ -279,8 +278,8 @@ body{
 @media (min-width: 377px) and (max-width: 480px) { 
 /* Sección de Nav */ 
   /* Sección de Nav */ 
-    
-#DatosPrincipales {
+ /*IPHONE 14*/
+ #DatosPrincipales {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -289,8 +288,8 @@ body{
     width: 100%;
     /*border-style: dashed;/**/
     font-size: 1rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0rem;
 }
 
 #numeros_con_guion{
@@ -304,8 +303,6 @@ body{
 
 #mier{
     text-align: center;
-
-
 }
 
 #ContenidoDeBusqueda {
@@ -318,14 +315,15 @@ body{
     background-color: white; /* cambiar a blanco */
     color: black;
     /*border-style:groove;/**/
+    width: 100%;
 
 }
 
 #ContenidoDeBusqueda img{
-    height: 9.5rem;
+    height: 10.5rem;
     display: flex;
     /*border-style: dotted; /**/
-    background-color: blue;
+    background-color: white;
     padding-bottom: 3rem;
     padding-top: 0rem;
     padding-left: 1rem;
@@ -336,19 +334,18 @@ body{
 #ContenidoDeBusqueda #ListaPaginas{
     display: flex;
     list-style: none;
-    justify-content: right;
+    justify-content: left;
     text-transform: uppercase;
-    /*border-style: dotted; /**/
-    padding-top: 15%;
-    padding-bottom: 3%;
+    padding-top: 20%;
+    padding-bottom: 2%;
     padding-right: 0%;
     margin-right: 2%;
     padding-left: 0%;
     width: 60%; /* checar */
     position: relative;
-    top: 1.5rem; 
-    left: -1%;
-   /* border-style:dotted;/**/
+    top: 1rem; 
+    left: -10%;
+    /*border-style:dotted;/**/
 }
 
 #Puntitos_1 {
@@ -380,7 +377,7 @@ body{
 
 .ContenidoLista a{ /* ESTO ES LO QUE CONTIENE CONTENIDO LISTA, MENU Y ASI*/
     text-decoration: none;
-    font-size: 55%;
+    font-size: 65%;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 2rem;
@@ -524,16 +521,17 @@ footer h2{
     align-items: center;
     justify-content: center;
     align-items: center ;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 
 
 
+  
 } 
 /*Aqui acaba lo del cel*/
       
