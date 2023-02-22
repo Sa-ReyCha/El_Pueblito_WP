@@ -515,11 +515,22 @@ section{
     right: 5.5%;
 }
 
-/* CONTENIDO */
+    /* CONTENIDO */
     
-#menuFoto img{
-    height: 110%;
-}
+    #menuFoto img{
+        height: 110%;
+    }
+
+   #Contacto{
+    padding-top: 3rem;
+   }
+        
+    #LastImage img{
+        padding-top: 8rem;
+        width: 30rem;
+        text-align: center;
+        /*border-style: dashed;/**/
+    }
 
 footer {
     display: flex;
@@ -795,6 +806,18 @@ footer h2{
     #menuFoto img{
         height: 110%;
     }
+
+   #Contacto{
+    padding-top: 3rem;
+   }
+        
+    #LastImage img{
+        padding-top: 8rem;
+        width: 30rem;
+        text-align: center;
+        /*border-style: dashed;/**/
+    }
+
     
     footer {
         display: flex;
